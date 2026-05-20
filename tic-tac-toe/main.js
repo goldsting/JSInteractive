@@ -59,7 +59,7 @@ function checkResult() {
 }
 function restartGame() {
   currentPlayer = "X";
-  board = ["", "", "", "", "", "", "", "", "", ""];
+  board = ["", "", "", "", "", "", "", "", ""];
   gameActive = true;
   statusText.textContent = "Ход игрока: X";
 
